@@ -1,0 +1,40 @@
+.EightBall {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.EightBall-restart {
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 100px;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 50px;
+    margin: 3rem;
+}
+
+.EightBall-question {
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 3rem;
+}
+
+.EightBall-answer {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 3rem;
+}
